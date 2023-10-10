@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'segundoprojeto';
+  nome = 'Marcelo';
+  sobrenome: string = 'Moratto';
+
+  retornaAno(){
+    let ano = 2023; //Variável Local 
+    return this.nome + ' ' + ano;
+  }
 }
